@@ -24,7 +24,7 @@ class cinemaTicket {
     }
     
     public static void main(String[] args){
-        cinemaTicket c1 = new cinemaTicket("gladiator", 2, 33);
+        
         
     }
     

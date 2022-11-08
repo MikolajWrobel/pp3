@@ -12,7 +12,7 @@ private String licenseCategory;
 
 
 public void displayData(){
-    System.out.println("Person:" + name + surname +
+    System.out.println("Person: " + name + " " + surname +
     "\nAddress: " + city + postalCode + address +
     "\nLicense Number: " + licenseNumber + 
     "\nYear: " + yearOfIssue +
@@ -85,11 +85,9 @@ public String toString(){
 public static void main(String[] args){
     DrivingLicence drivingLicence = new DrivingLicence();
 
-    drivingLicence.name = "Jan";
-    drivingLicence.surname = "Kowalski";
-    System.out.println(drivingLicence);
-
-
+    drivingLicence.setName("jan");
+    drivingLicence.setSurname("Kowalski");
+    drivingLicence.displayData();
 }
 
 }
