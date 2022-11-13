@@ -33,19 +33,10 @@ class Person {
     
     public String toString(){
         String person = "";
-        person += getName() + getAge();
+        person += getName() + "," + getAge();
         return person;
     }
-
-    public static void main(String[] args){
-        Person p = new Person("Anna",21);
-        p.getAge();
-        p.isAdult();
-        p.setAge(17);
-        p.isAdult();
-        p.toString();
-
-    }
+    
 
     
 }
