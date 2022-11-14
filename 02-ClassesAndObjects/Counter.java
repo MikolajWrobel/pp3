@@ -1,4 +1,4 @@
-class Counter {
+public class Counter {
     
     int counter = 0;
     
@@ -26,13 +26,10 @@ class Counter {
     public void counterStatus(){
         System.out.println("Counter status: " + counter);
     }
+
     public static void main(String[] args){
-        Counter a = new Counter();
-        a.increase10();
-        a.increase10();
-        a.increase1();
-        a.increase1();
-        a.increase1();
-        a.counterStatus();
-}
+        Counter c1 = new Counter();
+        c1.counterStatus();
+
+    }
 }
