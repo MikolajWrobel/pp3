@@ -1,4 +1,4 @@
-class rectangles {
+class Rectangles {
     
     //Atrybuty
     int length;
@@ -21,8 +21,8 @@ class rectangles {
     }
     
     public static void main(String[] args){
-        rectangles r1 = new rectangles();
-        rectangles r2 = new rectangles();
+        Rectangles r1 = new Rectangles();
+        Rectangles r2 = new Rectangles();
         
         r1.length = 3;
         r1.width = 4;
