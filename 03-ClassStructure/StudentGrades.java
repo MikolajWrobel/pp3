@@ -16,9 +16,7 @@ public class StudentGrades {
             }
         }
         return x;
-    }
-   
-
+    }                               
 
     public int numberOfGrades(){
         int counter = 0;
