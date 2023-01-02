@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.FormatFlagsConversionMismatchException;
 
 public class ShoppingList {
 
@@ -14,6 +15,7 @@ public class ShoppingList {
         for (Product product : products){
             result+=product.getName() + ",";
         }
+
         return result;
     }
 

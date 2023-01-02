@@ -12,9 +12,8 @@ public class Family {
 
         for (Person person : people) {
             if (person.getAge()>17){
-                counter ++;
+                counter+=1;
             }
-            
         }
         return counter;
     }
