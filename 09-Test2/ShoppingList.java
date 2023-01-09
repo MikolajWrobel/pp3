@@ -1,6 +1,5 @@
 import java.util.ArrayList;
-import java.util.FormatFlagsConversionMismatchException;
-
+         
 public class ShoppingList {
 
     ArrayList<Product> products = new ArrayList<Product>();
